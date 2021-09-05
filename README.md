@@ -1,3 +1,17 @@
+# discord.js-user-account
+
+This fork allows you to use user accounts with the library.
+To do so, set `loginAsUserAccount = true` in the client options:
+```js
+const client = new Client({ loginAsUserAccount: true })
+// ...
+client.login(`NzE3MDYxMjMzNTAw********.******.***************************`)
+```
+
+Even though using a User Token with the API technically violates the Discord Terms of Service, I don't care. I believe one should be free to do what they want **while being aware of the risks**. While using this library, you aknowledge the risk of being banned from Discord, and you accept that I'm not responsible for it.
+
+---
+
 <div align="center">
   <br />
   <p>
