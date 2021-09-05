@@ -3322,6 +3322,7 @@ export interface ClientEvents {
 }
 
 export interface ClientOptions {
+  loginAsUserAccount?: boolean;
   shards?: number | number[] | 'auto';
   shardCount?: number;
   makeCache?: CacheFactory;

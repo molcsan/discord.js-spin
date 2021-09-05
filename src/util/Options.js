@@ -109,6 +109,7 @@ class Options extends null {
    */
   static createDefault() {
     return {
+      loginAsUserAccount: false,
       shardCount: 1,
       makeCache: this.cacheWithLimits(this.defaultMakeCacheSettings),
       messageCacheLifetime: 0,
